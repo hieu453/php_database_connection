@@ -1,0 +1,14 @@
+{
+    "name": "hieu/php_database_connection",
+    "autoload": {
+        "psr-4": {
+            "Database\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hieu453",
+            "email": "hieult0405@gmail.com"
+        }
+    ]
+}
