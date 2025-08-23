@@ -25,4 +25,5 @@ It just supports two databases: MySQL and PostgreSQL.
 ```php
 <?php
 $d = Database\DatabaseFactory::create();
+$d->connect();
 ```
