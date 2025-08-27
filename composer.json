@@ -1,8 +1,15 @@
 {
-    "name": "hieu/php_database_connection",
+    "name": "hieu453/php_database_connection",
+    "description": "A package that helps to easily connect to a database",
+    "keywords": ["database"],
     "autoload": {
         "psr-4": {
             "Database\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Database\\Tests\\": "tests/Database/"
         }
     },
     "authors": [
@@ -10,5 +17,16 @@
             "name": "hieu453",
             "email": "hieult0405@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
 }
